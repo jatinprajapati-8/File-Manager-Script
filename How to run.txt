@@ -1,0 +1,36 @@
+Steps:
+1. Set Up Your Project Directory
+Open your macOS terminal.
+Create a project folder for your script:
+mkdir file_manager_project
+cd file_manager_project
+
+2. Create a Shell Script File
+Create a file named file_manager.sh in your project folder:
+touch file_manager.sh
+chmod +x file_manager.sh
+Open file_manager.sh with a text editor:
+nano file_manager.sh
+
+3. Write the Script
+
+
+4. Run the Script
+Save the script in the text editor.
+In the terminal, execute the script by running:
+./file_manager.sh
+You should see a menu with the options listed. Try each one to test the functionality.
+
+
+
+
+Explanation of the Commands:
+mkdir: Creates a directory.
+cd: Changes directories.
+ls -la: Lists files in long format, showing hidden files.
+find: Searches for files.
+cp: Copies files.
+mv: Moves or renames files.
+rm: Deletes files.
+cat: Displays file contents.
+stat: Shows file metadata, such as size, permissions, and modification date.
